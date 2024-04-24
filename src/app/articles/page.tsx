@@ -2,8 +2,9 @@ import React from "react";
 import Header from "../components/Header";
 import Blogs from "../components/Blogs";
 import data from "./data";
+import Footer from "../components/Footer";
 
-const journalPage = () => {
+const Articles = () => {
   return (
     <div>
       <Header />
@@ -17,21 +18,24 @@ const journalPage = () => {
               Learn how to improve your mental health with our expert advice.
             </p>
           </div>
-          {data.map((user, index) => (
-            <Blogs
-              date={user[0]}
-              type={user[1]}
-              title={user[2]}
-              paragraph={user[3]}
-              profilePic={user[4]}
-              profileName={user[5]}
-              profilePosition={user[6]}
-            />
-          ))}
+          <div style={{ margin: "3% 5% 10% 5%" }}>
+            {data.map((user, index) => (
+              <Blogs
+                date={user[0]}
+                type={user[1]}
+                title={user[2]}
+                paragraph={user[3]}
+                profilePic={user[4]}
+                profileName={user[5]}
+                profilePosition={user[6]}
+              />
+            ))}
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default journalPage;
+export default Articles;
