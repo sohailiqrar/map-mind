@@ -7,7 +7,7 @@ import EmojiTypes from "./EmojiTypes";
 const EmojiPanel = () => {
   return (
     <div className={styles.container}>
-      <PanelPrompt prompt="How are you feeling today?" />
+      <PanelPrompt key={"prompt"} prompt="How are you feeling today?" />
       <EmojiTypes />
     </div>
   );

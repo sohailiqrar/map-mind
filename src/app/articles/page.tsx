@@ -21,6 +21,7 @@ const Articles = () => {
           <div style={{ margin: "3% 5% 10% 5%" }}>
             {data.map((user, index) => (
               <Blogs
+                key={index}
                 date={user[0]}
                 type={user[1]}
                 title={user[2]}
