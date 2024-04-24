@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./EmojiPanel.module.css";
+import styles from "../Panel.module.css";
 import { Playfair } from "next/font/google";
 
 const playfair = Playfair({

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "./EmojiPanel.module.css";
+import styles from "../Panel.module.css";
 import PanelPrompt from "./PanelPrompt";
 
 const EmojiTypes = () => {
