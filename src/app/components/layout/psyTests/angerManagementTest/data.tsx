@@ -1,0 +1,22 @@
+export const angerManagementQuestions = [
+  "I can’t help getting into arguments.",
+  "If someone teases me or makes a joke about me, I lose my temper.",
+  "Even when my anger is aroused, I stay calm.",
+  "I have become so mad that I have broken things.",
+  "I am an even-tempered person.",
+  "I have many arguments with members of my family.",
+  "When I feel angry, I take time to think before I react.",
+  "If I bought a new product and realized it didn’t work, I would be furious.",
+  "I can communicate how I’m feeling without becoming aggressive.",
+  "When people annoy me, I tell them what I think of them.",
+  "If I feel disrespected, even if it's unintentional, I get really mad.",
+  "I’m able to prevent my anger from turning into aggression.",
+  "I could never exploit someone out of anger; my conscience would punish me.",
+  "I tend to harbor grudges, and thinking about them makes me mad.",
+  "I calm down faster than most people.",
+  "I can identify triggers that make me angry and take steps to avoid them.",
+  "I am angrier than I am willing to admit.",
+  "Given enough provocation, I may hit another person.",
+  "My friends have commented that I can't control my anger.",
+  "If someone continues arguing about a topic they know little about, I feel irritated but let it go."
+];

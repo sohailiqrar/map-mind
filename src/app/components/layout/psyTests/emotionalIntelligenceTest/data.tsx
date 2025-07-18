@@ -1,0 +1,22 @@
+export const emotionalIntelligenceQuestions = [
+  "I am able to regulate my emotions.",
+  "I pick up on body language cues.",
+  "I fly off the handle easily.",
+  "I grow from my emotional experiences.",
+  "When making a high-stakes decision, I try to factor in how I'm feeling now as well as how I might feel later.",
+  "Emotional setbacks are hard, but I manage them.",
+  "I can express a variety of emotions to others.",
+  "I can remain collected during conflict.",
+  "I remain non-judgmental and accept the emotions of others.",
+  "I remain at ease in challenging situations.",
+  "I remain calm when things are rough.",
+  "I blurt things out without thinking about the impact on others.",
+  "I feel grateful for others and share my appreciation.",
+  "I accept my difficult emotions, even negative ones like anger.",
+  "I am able to adjust my behavior when the situation calls for it.",
+  "I am open to doing things differently.",
+  "I validate how other people feel.",
+  "I can adapt to different situations.",
+  "I do not handle the emotions of others well.",
+  "I cannot identify my emotions easily."
+];

@@ -1,0 +1,22 @@
+export const narcissismQuestions = [
+  "I often fantasize about having unlimited success, power, or beauty.",
+  "I deserve to be treated with the utmost respect and deference, regardless of the circumstances.",
+  "I can’t stand it if another person is the center of attention.",
+  "I don’t know if I’d make a good leader.",
+  "I get angry when I don't get what I want from others.",
+  "I get annoyed if another person steals the show from me.",
+  "It's hard to show my vulnerabilities to others.",
+  "I like to show off.",
+  "I have a lot to learn from other people.",
+  "I’m not satisfied until I get everything I deserve.",
+  "I take pleasure in the failure of my rivals.",
+  "I expect special treatment from others.",
+  "I start to feel badly about myself when I go unnoticed.",
+  "I think I’ll be famous someday.",
+  "All I want is to be reasonably happy.",
+  "I find it easy to manipulate people.",
+  "I tend to disregard the feelings and needs of others.",
+  "Having authority over others is important to me.",
+  "When others get a sense of my true needs, I feel anxious and ashamed.",
+  "If I ruled the world, it would be a better place."
+];

@@ -1,0 +1,22 @@
+export const selfEsteemQuestions = [
+  "I have good qualities.",
+  "I am able to handle stress well.",
+  "I am satisfied with my current job.",
+  "I have a healthy work-life balance.",
+  "Feeling blue is part of being human.",
+  "I ruminate about all the things that are wrong in my life.",
+  "I brood over my flaws.",
+  "I think positively about myself.",
+  "I avoid beating myself up. I have self-compassion.",
+  "I know how to say 'no.' Giving too much of myself does no one any good.",
+  "I avoid being judgmental about myself.",
+  "I make good decisions.",
+  "I like who I am.",
+  "I wish I could be more confident, just like other people.",
+  "I wonder what people are thinking about me, I know it is negative.",
+  "I feel attractive much of the time.",
+  "I shut down because I am not worthy when I feel bad.",
+  "I am mostly satisfied with myself.",
+  "I welcome a challenge, I become more single-minded about succeeding.",
+  "I am effective, not inferior."
+];

@@ -1,0 +1,22 @@
+export const optimismQuestions = [
+  "I’m confident I can overcome obstacles.",
+  "I believe that most things in life work out well.",
+  "I try to learn from setbacks however I can.",
+  "I generally expect positive things from my life.",
+  "I try to look on the bright side.",
+  "It’s difficult for me to bounce back from failure.",
+  "I feel hopeful about my future.",
+  "I know I will get through hard times with flying colors.",
+  "I think it’s smarter to see the glass as half-empty.",
+  "During a bad patch, I try to remember that life usually gets better.",
+  "I’m extra careful not to mess up because there are rarely do-overs in life.",
+  "I try to stay focused on the positives of life, rather than the negatives.",
+  "I believe that good luck can strike at any moment.",
+  "I trust in my ability to handle life’s challenges.",
+  "I know I will achieve my goals.",
+  "I think of failure as an opportunity for growth.",
+  "I feel good about the direction my life is headed.",
+  "I rarely feel a sense of dread when I wake up in the morning.",
+  "Setbacks are normal and I rarely get worked up about them.",
+  "I have a shining future."
+];

@@ -1,0 +1,369 @@
+/*----------------------------------------------------------------------------------------------------------------------
+Project:	    CreaSoon
+Version:        1.0.0
+
+Default Color   #000;
+
+Body copy:		'Monsterat', sans-serif; 14px;
+Headers:		'Monsterat', sans-serif;
+
+----------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------
+[Table of contents]
+
+A. Basic Styling
+  -- Styling
+
+B. Helpers
+  -- Animations
+  -- Universal Classes
+
+C. Components
+  -- Background
+  -- Box
+  -- Content wrapper
+  -- Count-down
+  -- Footer
+  -- Forms
+  -- Header
+  -- Magnific popup
+  -- Map
+  -- Modal
+  -- Page wrapper
+  -- Parallax
+  -- Person
+  -- Skill
+  -- Social icons
+  -- Work;
+
+----------------------------------------------------------------------------------------------------------------------*/
+
+/***********************************************************************************************************************
+A. Basic Styling
+***********************************************************************************************************************/
+
+body,
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  overflow: hidden;
+  /* background-color: white !important; */
+  position: relative;
+  /* margin-right: 0 !important; */
+  /* margin: 0; */
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* section {
+  margin-bottom: 2.5rem;
+} */
+
+/***********************************************************************************************************************
+B. Helpers
+***********************************************************************************************************************/
+
+/* Animate */
+
+/* .animate {
+  transition: 0.6s;
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.animate.idle {
+  opacity: 1;
+  transform: scale(1);
+} */
+
+.background-wrapper,
+.active-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.background-wrapper img,
+.active-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.background-wrapper .map,
+.active-slider .map {
+  height: 100%;
+}
+
+.background-wrapper .background-color,
+.active-slider .background-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.background-wrapper .background-color.background-color-white,
+.active-slider .background-color.background-color-white {
+  background-color: #fff;
+}
+
+.background-wrapper .background-color.background-color-black,
+.active-slider .background-color.background-color-black {
+  background-color: #000;
+}
+
+.bg-transfer {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-transfer img {
+  display: none !important;
+}
+
+.bg-transfer.bg-fixed {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.center {
+  text-align: center;
+}
+
+.note {
+  opacity: 0.4;
+  font-size: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+.shadow {
+  box-shadow: 0 0.0625rem 0.625rem rgba(0, 0, 0, 0.07);
+}
+
+.font-size-10 {
+  font-size: 0.625rem;
+}
+
+.font-size-20 {
+  font-size: 1.25rem;
+}
+
+.font-size-30 {
+  font-size: 1.875rem;
+}
+
+.font-size-40 {
+  font-size: 2.5rem;
+}
+
+.font-size-50 {
+  font-size: 3.125rem;
+}
+
+.font-size-60 {
+  font-size: 3.75rem;
+}
+
+.font-size-70 {
+  font-size: 4.375rem;
+}
+
+.font-size-80 {
+  font-size: 5rem;
+}
+
+.font-size-90 {
+  font-size: 5.625rem;
+}
+
+.font-size-100 {
+  font-size: 6.25rem;
+}
+
+.font-size-110 {
+  font-size: 6.875rem;
+}
+
+.font-size-120 {
+  font-size: 7.5rem;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-19 {
+  opacity: 0.19;
+}
+
+.opacity-18 {
+  opacity: 0.18;
+}
+
+.opacity-17 {
+  opacity: 0.17;
+}
+
+.opacity-16 {
+  opacity: 0.16;
+}
+
+.opacity-15 {
+  opacity: 0.15;
+}
+
+.opacity-14 {
+  opacity: 0.14;
+}
+
+.opacity-13 {
+  opacity: 0.13;
+}
+
+.opacity-12 {
+  opacity: 0.12;
+}
+
+.opacity-11 {
+  opacity: 0.11;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-9 {
+  opacity: 0.09;
+}
+
+.opacity-8 {
+  opacity: 0.08;
+}
+
+.opacity-7 {
+  opacity: 0.07;
+}
+
+.opacity-6 {
+  opacity: 0.06;
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-4 {
+  opacity: 0.04;
+}
+
+.opacity-3 {
+  opacity: 0.03;
+}
+
+.opacity-2 {
+  opacity: 0.02;
+}
+
+.opacity-1 {
+  opacity: 0.01;
+}
+
+/***********************************************************************************************************************
+C. Components
+***********************************************************************************************************************/
+
+/* Background */
+
+#background-content {
+  height: 100%;
+  width: 100%;
+}
+
+/* -- Content Wrapper */
+
+.content-wrapper {
+  display: table;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+}
+
+.content-wrapper .content-main {
+  text-align: center;
+  z-index: 1;
+  pointer-events: none;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.content-wrapper .content-main h1 {
+  margin-bottom: 2.5rem;
+}
+
+.content-wrapper .content-main h2 {
+  /* margin-top: 1.25rem; */
+  margin-bottom: 2.5rem;
+}
+
+.content-wrapper .content-main form {
+  pointer-events: auto;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.content-wrapper .content-main .container {
+  z-index: 1;
+  position: relative;
+}

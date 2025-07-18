@@ -1,0 +1,22 @@
+export const socialAnxietyQuestions = [
+  "I avoid public speaking.",
+  "I'm always eager to answer a text or call.",
+  "I consider myself to be a shy person.",
+  "I enjoy meeting and talking to new people.",
+  "Knowing I will attend a party on the weekend stresses me out all week.",
+  "I think meetings are the worst part of the workday.",
+  "When I disagree with someone, I usually keep it to myself.",
+  "I find it difficult to relax at a party unless I've had some alcohol.",
+  "It's not easy for me to talk to someone I find attractive.",
+  "I believe other people want to hear what I have to say.",
+  "At social gatherings, I blush, sweat, and feel my heart race.",
+  "I always try to speak loudly and clearly.",
+  "I can get nervous when I have to speak to a boss or a teacher.",
+  "I don't like being asked to join in when people are singing or dancing.",
+  "I'm OK with not having any social plans on the weekend.",
+  "I get embarrassed easily, even around people I know.",
+  "I have lied to avoid a social gathering, or to leave one early.",
+  "I try to avoid restaurants where other people can see me.",
+  "Before a social event, I spend a lot of time thinking about who I’ll talk to and what I might say.",
+  "Direct eye contact can make me uncomfortable."
+];

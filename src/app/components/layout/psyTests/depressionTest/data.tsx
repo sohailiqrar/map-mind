@@ -1,0 +1,22 @@
+export const depressionQuestions = [
+  "I generally feel down and unhappy.",
+  "I have less interest in other people than I used to.",
+  "It takes a lot of effort to start working on something new.",
+  "I don't get as much satisfaction out of things as I used to.",
+  "I have headaches or back pain for no apparent reason.",
+  "I easily get impatient, frustrated, or angry.",
+  "I feel lonely, and that people aren't that interested in me.",
+  "I feel like I have nothing to look forward to.",
+  "I have episodes of crying that are hard to stop.",
+  "I have trouble getting to sleep or I sleep in too late.",
+  "I feel like my life has been a failure or a disappointment.",
+  "I have trouble staying focused on what I'm supposed to be doing.",
+  "I blame myself for my faults and mistakes.",
+  "I feel like I've slowed down; sometimes I don't have the energy to get anything done.",
+  "I have trouble finishing books, movies, or TV shows.",
+  "I put off making decisions more often than I used to.",
+  "When I feel down, friends and family can't cheer me up.",
+  "I think about people being better off without me.",
+  "I'm eating much less (or much more) than normal and it's affecting my weight.",
+  "I have less interest in sex than I used to."
+];

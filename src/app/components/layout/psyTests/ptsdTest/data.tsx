@@ -1,0 +1,22 @@
+export const ptsdQuestions = [
+  "I experienced a traumatic event, such as the threat of death, a serious injury, or sexual violence.",
+  "I have recurrent, involuntary, and intrusive distressing memories of a traumatic event.",
+  "I witnessed a traumatic event happen to someone else.",
+  "I have recurrent distressing dreams related to a traumatic event.",
+  "I experienced repeated or extreme exposure to graphic details of a traumatic event.",
+  "I have an intense reaction to cues that remind me of a traumatic event.",
+  "I learned that a traumatic event occurred to a close family member or friend.",
+  "I have flashbacks in which I feel or act as if a traumatic event were recurring.",
+  "I avoid things that remind me of a traumatic event, like people, places, activities, or memories.",
+  "I have negative beliefs, like 'No one can be trusted,' or 'The world is completely dangerous.'",
+  "I mainly feel negative emotions, like horror, anger, guilt, or shame.",
+  "I feel detached from others.",
+  "I consistently can’t feel positive emotions, like happiness or satisfaction.",
+  "I have angry outbursts with little or no provocation.",
+  "I engage in reckless or self-destructive behavior.",
+  "I’m hypervigilant.",
+  "I have an exaggerated startle response.",
+  "I have problems with concentration.",
+  "I have difficulty falling or staying asleep.",
+  "A traumatic event has significantly impaired my ability to function in daily life."
+];
