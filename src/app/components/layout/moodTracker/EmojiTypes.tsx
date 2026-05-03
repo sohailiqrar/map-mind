@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import styles from "./Panel.module.css";
 import { chartData, emojisData } from "./data";
-import showAlert from "@/app/components/alert";
+import showAlert from "@/app/components/ui/alert";
 
 const EmojiTypes = ({ isClicked, handleClick }: any) => {
   function addData(emojiNum: string | number) {

@@ -2,6 +2,6 @@
 
 import { SessionProvider } from "next-auth/react";
 
-export const Provider = ({ children }: any) => {
-  return <SessionProvider>{children}</SessionProvider>;
+export const Provider = ({ children, session }: any) => {
+  return <SessionProvider session={session}>{children}</SessionProvider>;
 };

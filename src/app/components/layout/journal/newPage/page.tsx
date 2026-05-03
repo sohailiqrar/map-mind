@@ -6,7 +6,7 @@ import Link from "next/link";
 import Swal from "sweetalert2";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import showAlert from "@/components/ui/alert";
+import showAlert from "@/app/components/ui/alert";
 
 const Journal = () => {
   const [text, setText] = useState("");

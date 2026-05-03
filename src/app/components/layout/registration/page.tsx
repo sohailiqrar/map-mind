@@ -2,7 +2,7 @@
 import { FormEvent, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { register } from "@/lib/actions/register";
+import { register } from "@/app/lib/actions/register";
 
 export default function Register() {
   const [error, setError] = useState<string>();
@@ -16,13 +16,12 @@ export default function Register() {
       name: formData.get("firstName") + " " + formData.get("lastName")
     });
 
-    ref.current?.reset();
     if (status?.error) {
       setError(status.error);
       return;
-    } else {
-      return router.push("/login");
     }
+    ref.current?.reset();
+    return router.push("/components/layout/login");
   };
 
   return (
@@ -116,7 +115,7 @@ export default function Register() {
             </form>
 
             <Link
-              href="/login"
+              href="/components/layout/login"
               className="text-sm m-10 text-[#888] transition duration-150 ease hover:text-black">
               Already have an account?
             </Link>

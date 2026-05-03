@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { useSession } from "next-auth/react";
-import { connectDB } from "@/lib/utils/mongodb";
+import { connectDB } from "@/app/lib/utils/mongodb";
 import User from "../models/User";
 
 export default async function handler(

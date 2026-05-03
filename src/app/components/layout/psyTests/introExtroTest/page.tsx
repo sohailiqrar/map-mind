@@ -1,4 +1,4 @@
-import Survey from "@/components/ui/testForm/page";
+import Survey from "@/app/components/ui/testForm/page";
 import { introExtroQuestions } from "./data";
 
 const introExtroTest = () => {

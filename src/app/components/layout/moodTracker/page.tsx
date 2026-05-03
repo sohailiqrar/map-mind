@@ -6,7 +6,7 @@ import EmojiPanel from "./EmojiPanel";
 import EmojiChart from "./EmojiChart";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import showAlert from "@/components/ui/alert";
+import showAlert from "@/app/components/ui/alert";
 
 export default function MoodTracker() {
   const { data: session, status } = useSession();

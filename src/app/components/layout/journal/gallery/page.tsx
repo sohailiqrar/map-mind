@@ -3,10 +3,10 @@
 import styles from "./page.module.css";
 import React from "react";
 import pages from "../data";
-import SweetAlert from "@/components/ui/SweetAlert";
+import SweetAlert from "@/app/components/ui/SweetAlert";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import showAlert from "@/components/ui/alert";
+import showAlert from "@/app/components/ui/alert";
 
 const Gallery = () => {
   const { data: session, status } = useSession();

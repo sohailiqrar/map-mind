@@ -52,8 +52,6 @@ export const authOptions: any = {
     },
 
     async signIn({ user }: any) {
-      // Save user to the database if needed
-
       if (!user.password) {
         const status = await register({
           email: user.email,
@@ -73,20 +71,10 @@ export const authOptions: any = {
     async session({ session, user, token }: any) {
       session.user.id = token.id;
       session.user.name = token.name;
-
-      // console.log(session);
-
-      // const status = await register({
-      //   email: formData.get("email"),
-      //   password: formData.get("password"),
-      //   name: formData.get("firstName") + " " + formData.get("lastName")
-      // });
-
       return session;
     },
     async jwt({ token, user }: any) {
       if (user) {
-        // console.log(user.email);
         token.id = user.id;
         token.name = user.name;
       }

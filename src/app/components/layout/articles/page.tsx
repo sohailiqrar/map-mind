@@ -1,5 +1,5 @@
 import React from "react";
-import Blogs from "@/components/ui/Blogs";
+import Blogs from "@/app/components/ui/Blogs";
 import data from "./data";
 
 const Articles = () => {
